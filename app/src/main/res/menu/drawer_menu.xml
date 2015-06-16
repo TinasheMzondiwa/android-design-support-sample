@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_action_1"
+            android:icon="@drawable/ic_shop"
+            android:title="@string/action" />
+        <item
+            android:id="@+id/nav_action_2"
+            android:icon="@drawable/ic_perm_media"
+            android:title="@string/action" />
+        <item
+            android:id="@+id/nav_action_3"
+            android:icon="@drawable/ic_perm_identity"
+            android:title="@string/action" />
+
+    </group>
+
+    <item
+        android:title="Sub items">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:title="@string/action_help" />
+            <item
+                android:id="@+id/nav_donate"
+                android:title="@string/action_settings" />
+        </menu>
+    </item>
+</menu>
